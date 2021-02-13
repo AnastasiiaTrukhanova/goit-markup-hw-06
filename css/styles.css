@@ -466,6 +466,7 @@ body {
   justify-content: baseline;
   flex-direction: column;
   margin-right: 70px;
+  width: 231px;
 }
 .logo-footer {
   font-family: Raleway;
@@ -511,6 +512,7 @@ body {
 .social {
   display: flex;
   flex-direction: column;
+  margin-right: 93px;
 }
 
 .social-title {
@@ -543,9 +545,8 @@ body {
 .subscribe {
   display: flex;
   flex-direction: column;
-  justify-content: flex-end;
-  margin-left: 90px;
 }
+
 .subscribe-title {
   font-size: 14px;
   font-weight: 700;
@@ -554,8 +555,10 @@ body {
 
   text-transform: uppercase;
 }
+
 .subscribe-form {
   display: flex;
+  flex-direction: row;
   margin-top: 20px;
 }
 
@@ -566,7 +569,7 @@ body {
   border: 1px solid rgba(255, 255, 255, 0.3);
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
   border-radius: 4px;
-  margin-right: 10px;
+  margin-right: 12px;
   padding-top: 15px;
   padding-bottom: 15px;
   padding-left: 16px;
@@ -577,15 +580,17 @@ body {
   letter-spacing: 0.03em;
   color: var(--primary-white-color);
 }
+
 .subscribe-form-line::placeholder {
   color: var(--footer-link-color);
 }
+
 .subscribe-button {
   display: flex;
   align-items: center;
   background-color: var(--accent-color);
   color: var(--primary-white-color);
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  box-shadow: 0px 4px 4px rgba(143, 136, 136, 0.15);
   border: none;
   width: 200px;
   height: 50px;
@@ -593,10 +598,12 @@ body {
 
   transition: background-color var(--time-hover) var(--timing-function);
 }
+
 .subscribe-button:hover,
 .subscribe-button:focus {
   cursor: pointer;
 }
+
 .button-icon {
   fill: currentColor;
   margin-left: 10px;
