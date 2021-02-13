@@ -543,8 +543,8 @@ body {
 .subscribe {
   display: flex;
   flex-direction: column;
-  justify-content: flex-start;
-  margin-left: 70px;
+  justify-content: flex-end;
+  margin-left: 90px;
 }
 .subscribe-title {
   font-size: 14px;
